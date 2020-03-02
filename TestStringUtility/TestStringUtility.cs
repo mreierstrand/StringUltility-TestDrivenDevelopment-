@@ -37,12 +37,9 @@ namespace TestStringUtility
             string findLetter = "z";
             int expectedResult = 1;
 
-
             StringUltility.StringUtility classToTest = new StringUtility();
             int actualResult = classToTest.CountOcurrences(stringToCheck, findLetter);
             Assert.AreEqual(expectedResult, actualResult);
         }
-
-
     }
 }
